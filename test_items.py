@@ -10,4 +10,4 @@ def test_add_to_cart_button_presence(browser):
     
     add_to_cart_btn = browser.find_element(By.XPATH, "//button[@type='submit']")
     
-    assert add_to_cart_btn is not None
+    assert add_to_cart_btn is not None , "No add to cart button found"
